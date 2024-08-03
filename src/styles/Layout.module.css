@@ -1,0 +1,72 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fe5d42;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px 60px;
+    border-radius: 10px;
+}
+
+.header a {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header div {
+    font-size: 1.6rem;
+    background-color: #fff;
+    text-align: center;
+    color: #fe5d42;
+    height: 35px;
+    width: 35px;
+    border-radius: 9px;
+    padding: 2px;
+    position: relative;
+}
+
+.header span {
+    font-size: .9rem;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: #fe5d42;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 80px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer a {
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: bisque;
+    color: black;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 0.1s;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

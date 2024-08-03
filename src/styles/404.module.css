@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container img {
+    width: 40%;
+    margin: 40px;
+}
+
+.container p {
+    font-size: 2.5rem;
+}
+
+@media (max-width:810px) {
+    .container p {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:570px) {
+    .container {
+        flex-direction: column-reverse;
+        
+    }
+
+    .container img {
+        width: 60%;
+    }
+
+    .container p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:440px) {
+    .container p {
+        font-size: 1.4rem;
+    }
+    .container img {
+        width: 70%;
+    }
+}
