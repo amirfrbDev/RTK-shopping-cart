@@ -35,8 +35,6 @@ function Card({ product }) {
                     <TbListDetails />
                 </Link>
                 <div>
-
-
                     {quantity === 1 && (
                         <button onClick={() => dispatch(removeItem(product))}>
                             <MdDeleteOutline />

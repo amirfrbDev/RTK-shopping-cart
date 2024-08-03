@@ -1,12 +1,14 @@
+import { useDispatch, useSelector } from "react-redux";
+
 import CheckoutCard from "../components/CheckoutCard";
 import CheckoutSidebar from "../components/CheckoutSidebar";
 
-import emptyCart from "../assets/empty-cart.png"
 
 import { addItem, removeItem, increase, decrease, checkout } from "../features/cartSlice"
 
+import emptyCart from "../assets/empty-cart.png"
+
 import styles from "../styles/CheckoutPage.module.css"
-import { useDispatch, useSelector } from "react-redux";
 
 function CheckoutPage() {
   const state = useSelector(store => store.cart)

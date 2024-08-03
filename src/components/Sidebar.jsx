@@ -1,5 +1,6 @@
-import { FaListUl } from 'react-icons/fa';
 import { createQueryObject } from '../helpers/helper';
+
+import { FaListUl } from 'react-icons/fa';
 
 import styles from "../styles/Sidebar.module.css"
 

@@ -28,7 +28,7 @@ function CheckoutCard({ product }) {
                 {quantity > 1 && (<button onClick={() => dispatch(decrease(product))}>-</button>)}
                 <span>{quantity}</span>
                 <button onClick={() => dispatch(increase(product))}>+</button>
-        </div>
+            </div>
         </div >
     )
 }
